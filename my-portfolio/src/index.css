@@ -1,0 +1,86 @@
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: inherit;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border-bottom: 23px solid rgba(112, 52, 52, 0.856);
+}
+
+/* Logo */
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #100b0e;
+}
+
+/* Navigation links */
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+  transition: max-height 0.3s ease;
+}
+
+/* Links hover effect */
+.nav-links li {
+  cursor: pointer;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.nav-links li:hover {
+  color: #ce119b;
+}
+:root {
+  --bg: #ffffff;
+  --fg: #111827;
+  --muted: #6b7280;
+  --toggle-bg: #ffffff;
+  --toggle-fg: #111827;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--fg);
+  transition: background-color 200ms ease, color 200ms ease;
+}
+
+/* Dark theme vars */
+body.dark {
+  --bg: #0b1220;
+  --fg: #e6eef8;
+  --muted: #9aa8bf;
+  --toggle-bg: #0f1724;
+  --toggle-fg: #e6eef8;
+}
+
+/* make navbar border softer in dark mode */
+.navbar {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+body.dark .navbar {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.picture {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 20px;
+}
+
+.projects {
+  padding: 50px 20px;
+  align-items: center;
+}
