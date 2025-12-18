@@ -103,7 +103,7 @@ function Contact() {
           </button>
 
           <span style={{ marginLeft: 12 }}>
-            or <a href="mailto:magtech@example.com">email me directly</a>
+            or <a href="mailto:oseipreciousmagdalene@gmail.com">email me directly</a>
           </span>
         </div>
 
