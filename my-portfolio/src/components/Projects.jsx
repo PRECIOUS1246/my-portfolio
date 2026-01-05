@@ -12,7 +12,7 @@ const projects = [
   {
     title: "Portfolio Site",
     description: "My personal portfolio built with React and css.",
-    link: "#",
+    link: "https://personal-portfolio-v1qv.onrender.com",
   },
 ];
 
