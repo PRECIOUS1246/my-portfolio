@@ -117,7 +117,7 @@ function About() {
 
       {/* Call to Action */}
       <div className="about-buttons">
-  <a href="projects" className="btn primary">
+  <a href="Projects" className="btn primary">
     View Projects
   </a>
 
